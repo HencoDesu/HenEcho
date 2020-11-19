@@ -9,8 +9,8 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 
 /*  Импорт блоков HenEcho */
-
+@import url("https://raw.githubusercontent.com/HencoDesu/HenEcho/Blocks/Blocks/ProfileAvatar.css");
 
 /*  Импорт shiki-exo (Legacy для работы еще не перенесенных на HenEcho блоков) */
-@import url("https://raw.githubusercontent.com/HencoDesu/HenEcho/Development/theme-current-version.css");
+@import url("https://raw.githubusercontent.com/HencoDesu/HenEcho/Blocks/theme-current-version.css");
 @import url("https://raw.githubusercontent.com/HencoDesu/HenEcho/Development/ColorSchemes/Dark.css");
