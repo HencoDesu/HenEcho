@@ -17,13 +17,7 @@
             top: 0;
         }
 
-    .p-profiles .profile-head .c-brief header h1 {
-        font-family: var(--main-font);
-        color: var(--profile-nickname-color);
-        font-size: 28px;
-        font-variant: small-caps;
-        text-shadow: 1px 1px 0px var(--main-text-shadow-color);
-    }
+    
 
     .l-page, body {
         font-family: var(--main-font);
@@ -1043,7 +1037,6 @@
     .b-user16 > a,
     .b-user16,
     .b-mention s,
-    .p-profiles .profile-head .c-brief header .notice a,
     .p-studios .block > .studio .name,
     .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.high,
     .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.full,
@@ -1144,7 +1137,6 @@
     .b-user16:hover > a,
     .b-user16:hover,
     .b-mention:hover s,
-    .p-profiles .profile-head .c-brief header .notice a:hover,
     .p-profiles .profile-head .c-mobile-actions a:hover,
     .p-profiles .profile-head .c-mobile-actions span:hover,
     .p-studios .block > .studio .name:hover,
@@ -1389,14 +1381,6 @@
         color: var(--sec-link-color);
     }
 
-    .p-profiles .profile-head .c-brief header .notice {
-        text-shadow: 0 0 0.06em var(--main-text-shadow-color);
-        font-weight: bold;
-        font-size: 12.5px;
-        color: var(--ter-text-color);
-        margin-top: 10px;
-    }
-
     .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a,
     .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement {
         font-size: 12.5px;
@@ -1547,7 +1531,6 @@
     .c-actions .new_comment,
     .c-actions .new_review,
     .c-actions .edit,
-    .p-profiles .profile-head .c-brief header h1.aliases::after,
     .p-profiles header.head .misc,
     .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.zero,
     .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement .text.zero,
@@ -2424,7 +2407,6 @@
         border: 1px solid var(--tile-border-color);
     }
 
-    .p-profiles .profile-head .c-brief header,
     .p-profiles .profile-head .c-info,
     .p-profiles-show .lifetime,
     .p-profiles-show .profile-content .c-right .cc-2a,
@@ -2555,10 +2537,6 @@
 
 
 @media screen and (min-width: 1200px) {
-    .p-profiles .profile-head .c-brief header {
-        width: calc(100% - 50px) !important;
-    }
-
     .p-profiles-show.x1200 .profile-content .c-right {
         margin-left: 20px !important;
         width: calc(45% - 40px) !important;
@@ -2616,15 +2594,6 @@
 
     .p-dashboards-show .cc-second .cc-inner .c-content {
         height: 366px;
-    }
-
-    .p-profiles .profile-head .c-brief header h1 {
-        margin-left: 20px;
-        margin-top: 6px;
-    }
-
-    .p-profiles .profile-head .c-brief header .notice {
-        margin-left: 20px;
     }
 
     .p-profiles .profile-head {
@@ -2794,17 +2763,6 @@
         --padding-width: 20px;
     }
 
-    .p-profiles .profile-head .c-brief header {
-        position: absolute;
-        top: 0;
-        margin: 15px 10px 10px 10px;
-        padding-top: 8px;
-        width: calc(100% - 40px);
-        float: left;
-        overflow: hidden;
-        white-space: nowrap;
-    }
-
     .p-profiles-show .lifetime {
         height: 110px;
     }
@@ -2838,15 +2796,6 @@
     .p-profiles-show .profile-content .block:last-child:not(:first-child),
     .p-profiles .profile-head .c-history {
         margin-top: -10px;
-    }
-
-    .p-profiles .profile-head .c-brief header h1 {
-        margin-left: 20px;
-        margin-top: 6px;
-    }
-
-    .p-profiles .profile-head .c-brief header .notice {
-        margin-left: 20px;
     }
 
     .p-profiles-show .profile-content .c-right .cc-2a,
@@ -3222,18 +3171,6 @@
         border: 1px solid var(--tile-border-color);
     }
 
-    .p-profiles .profile-head .c-brief header {
-        position: absolute;
-        top: 0;
-        margin-top: 15px;
-        padding-top: 14px !important;
-        width: calc(100% - 20px);
-        height: 115.5px;
-        float: left;
-        overflow: hidden;
-        white-space: nowrap;
-    }
-
     .p-profiles[data-user^="{\"id\":null"] .profile-head .avatar,
     .p-profiles[data-user^="{\"id\":null"] .profile-head .c-history {
         margin-top: 132px;
@@ -3313,13 +3250,6 @@
 
     .p-profiles .profile-head .c-info {
         padding-bottom: 0;
-    }
-
-    .p-profiles .profile-head .c-brief header .notice {
-        bottom: 0;
-        position: absolute;
-        margin-bottom: 20px;
-        max-width: calc(100% - 40px);
     }
 
     .b-quote {
@@ -3425,7 +3355,6 @@
     .buttons span,
     .p-profiles-show .lifetime .times .time,
     .p-profiles-show .lifetime .times .time.checked,
-    .p-profiles .profile-head .c-brief header .notice,
     .bar.vertical .line .x_label,
     .b-height_shortener .expand span,
     .bar.horizontal .line .bar-container .value,
@@ -3586,19 +3515,7 @@
 
     .b-hot_topics-v2 {
         margin-left: -5px;
-    }    
-
-    .p-profiles .profile-head .c-brief header {
-        position: absolute;
-        top: 0;
-        margin-top: 15px;
-        padding-top: 14px !important;
-        width: calc(100% - 10px);
-        height: 132.5px;
-        float: left;
-        overflow: hidden;
-        white-space: nowrap;
-    }
+    }   
 
     .menu-slide-outer.x240 .l-content {
         margin-right: 10px;
