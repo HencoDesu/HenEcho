@@ -1,0 +1,16 @@
+/* HenEcho Shikimori Theme, HencoDesu, 2020 */
+
+/* Настройки темы */
+:root {
+    --main-font: 'Noto Sans JP', sans-serif;
+     --desktop-avatar-image: url("https://desu.shikimori.one/system/users/x160/135003.png?1580322584");
+}
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+
+/*  Импорт блоков HenEcho */
+
+
+/*  Импорт shiki-exo (Legacy для работы еще не перенесенных на HenEcho блоков) */
+@import url("https://raw.githubusercontent.com/HencoDesu/HenEcho/Development/theme-current-version.css");
+@import url("https://raw.githubusercontent.com/HencoDesu/HenEcho/Development/ColorSchemes/Dark.css");
