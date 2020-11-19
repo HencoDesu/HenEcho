@@ -11,6 +11,7 @@
 /*  Импорт блоков HenEcho */
 @import url("https://raw.githubusercontent.com/HencoDesu/HenEcho/Blocks/Blocks/ProfileAvatar.css");
 @import url("https://raw.githubusercontent.com/HencoDesu/HenEcho/Blocks/Blocks/ProfileHeader.css");
+@import url("https://raw.githubusercontent.com/HencoDesu/HenEcho/Blocks/Blocks/ProfileHistory.css");
 
 /*  Импорт shiki-exo (Legacy для работы еще не перенесенных на HenEcho блоков) */
 @import url("https://raw.githubusercontent.com/HencoDesu/HenEcho/Blocks/theme-current-version.css");
