@@ -1,0 +1,75 @@
+/* HenEcho Shikimori Theme, HencoDesu, 2020 */
+
+@media screen {
+    .p-profiles-show .lifetime {
+        padding: 20px;
+        background-color: var(--tile-back-color);
+        border-radius: 3px;
+        border: 1px solid var(--tile-border-color);
+    }
+
+    .p-profiles-show .lifetime .times .time.checked,
+    .p-profiles-show .lifetime .times .time.checked::before {
+        color: var(--green-color);
+    }
+
+    .p-profiles-show .lifetime .times .time {
+        font-size: 13px;
+    }
+
+    .p-profiles-show .lifetime .times .time,
+    .p-profiles-show .lifetime .title {
+        color: var(--main-text-color);
+    }
+
+    .p-profiles-show .lifetime .title .value {
+        font-size: 14px;
+        color: var(--main-text-color);
+    }
+    
+    .p-profiles-show .lifetime .bar {
+        border-radius: 3px;
+    }
+}
+
+@media screen and (max-width: 1025) {
+    .p-profiles-show .lifetime {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .p-profiles-show .lifetime {
+        height: 110px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .p-profiles-show .lifetime .title .label {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .p-profiles-show .lifetime {
+        margin-top: 0 !important;
+    }
+
+    
+    .p-profiles-show .lifetime .times .time,
+    .p-profiles-show .lifetime .times .time.checked {
+        font-size: 14px;
+    }
+
+    
+    .p-profiles-show .lifetime .title .value {
+        font-size: 16px;
+    }
+
+    
+    .p-profiles-show .lifetime .title {
+        font-size: 17px;
+    }
+}

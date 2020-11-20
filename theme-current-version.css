@@ -618,8 +618,7 @@
         border-radius: 3px;
     }
 
-        .p-profiles-show .lifetime .times .time.checked,
-    .p-profiles-show .lifetime .times .time.checked::before,
+        
     .c-actions .fav-remove,
     .profile-actions .fav-remove,
     .profile-actions .ignore-remove,
@@ -1258,7 +1257,6 @@
     .b-catalog_entry-tooltip .inner .text,
     .p-user_rates-index .list-lines tr td .rewatches,
     .b-stats_bar .stat_names .stat_name,
-    .p-profiles-show .lifetime .times .time,
     .b-js-action {
         font-size: 13px;
     }
@@ -1374,7 +1372,6 @@
         font-size: 16px;
     }
 
-    .p-profiles-show .lifetime .times .time,
     .b-tag,
     .b-entry-info .line .b-tag,
     .b-catalog_entry-tooltip .inner .line .value .b-tag,
@@ -1393,7 +1390,6 @@
     .tooltip-details .b-nothing_here.centered,
     .p-studios .block > .studio .animes .num,
     .p-studios .block > .studio .years .num,
-    .p-profiles-show .lifetime .title,
     .p-profiles-show .profile-content .activity .title {
         color: var(--main-text-color);
     }
@@ -1404,8 +1400,7 @@
         border-radius: 3px;
     }
 
-    .p-user_rates-index .list-lines tr td .rate-text,
-    .p-profiles-show .lifetime .title .value {
+    .p-user_rates-index .list-lines tr td .rate-text {
         font-size: 14px;
         color: var(--main-text-color);
     }
@@ -1754,7 +1749,6 @@
     .b-add_to_list .trigger,
     .b-spoiler_inline,
     .b-spoiler_block > span,
-    .p-profiles-show .lifetime .bar,
     .bar.simple .bar,
     .b-stats_bar .bar {
         border-radius: 3px;
@@ -2358,7 +2352,6 @@
         border: 1px solid var(--tile-border-color);
     }
 
-    .p-profiles-show .lifetime,
     .p-profiles-show .profile-content .c-right .cc-2a,
     .p-profiles-show .profile-content .activity,
     .p-profiles-show .profile-content .about.block,
@@ -2597,7 +2590,6 @@
 
     .p-dashboards-show .b-hot_topics-v2 + * > .block2,
     .p-dashboards-show .b-hot_topics-v2 + * > .cc-second,
-    .p-profiles-show .lifetime,
     .p-profiles-show .profile-content .c-left,
     .p-profiles-show .profile-content .c-right > .block:last-child,
     .p-profiles-show .profile-content .block.achievements,
@@ -2682,10 +2674,6 @@
 @media screen and (min-width: 768px) {
     :root {
         --padding-width: 20px;
-    }
-
-    .p-profiles-show .lifetime {
-        height: 110px;
     }
 
     .p-profiles-show .profile-content .activity {
@@ -2777,12 +2765,6 @@
 
     .buttons ::after {
         font-size: 16px !important;
-    }
-
-    .p-profiles-show .lifetime .title .label {
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
     }
 
     .p-dashboards-show .cc-second .cc-inner .c-content {
@@ -3102,11 +3084,7 @@
     .p-profiles-show .profile-content .block.achievements,
     .p-profiles-show .profile-content .block:last-child:not(:first-child) {
         margin-top: -15px;
-    }
-
-    .p-profiles-show .lifetime {
-        margin-top: 0 !important;
-    }
+    }    
 
     .p-profiles-show .profile-content {
         margin-top: 15px;
@@ -3223,8 +3201,6 @@
     .b-review_votes .votes-against,
     .l-footer .links a,
     .buttons span,
-    .p-profiles-show .lifetime .times .time,
-    .p-profiles-show .lifetime .times .time.checked,
     .bar.vertical .line .x_label,
     .b-height_shortener .expand span,
     .bar.horizontal .line .bar-container .value,
@@ -3260,7 +3236,6 @@
     .p-user_rates-index .list-groups .summary.lines,
     .p-profiles .profile-head .c-mobile-actions a,
     .p-profiles .profile-head .c-mobile-actions span,
-    .p-profiles-show .lifetime .title .value,
     .p-user_rates-index .list-lines tr .num,
     .b-db_entry-variant-list_item .name-container .name,
     .b-catalog_entry .cover .title,
@@ -3287,7 +3262,6 @@
         body[data-locale="en"] .b-feedback > .marker-positioner > .marker-text, body .b-feedback > .marker-positioner > .marker-text,
     .b-stats_bar .stat_names .stat_name a,
     .b-stats_bar .stat_names .stat_name,
-    .p-profiles-show .lifetime .title,
     .p-profiles-show .profile-content .activity .title,
     .b-comment > .inner header .name-date a.name,
     .p-achievements-global table.statistics tr th,
