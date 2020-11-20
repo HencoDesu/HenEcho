@@ -68,6 +68,10 @@
         max-width: calc((100% - 16px) * 0.68);
         width: 100%;
     }
+
+    .p-profiles[data-user^="{\"id\":null"] .profile-head .avatar {
+        margin-top: 132px;
+    }
 }
 
 @media screen and (max-width: 480px) {

@@ -2352,7 +2352,7 @@
         border: 1px solid var(--tile-border-color);
     }
 
-    .p-profiles-show .profile-content .c-right .cc-2a,
+    
     .p-profiles-show .profile-content .activity,
     .p-profiles-show .profile-content .about.block,
     .p-profiles-show .profile-content .block.achievements,
@@ -2486,7 +2486,6 @@
 
 
 @media screen and (min-width: 1025px) {
-
     .p-dashboards-show .c-news_topics.m0 {
         width: 67.8%;
         margin-right: 1.8%;
@@ -2541,7 +2540,6 @@
         margin-top: 117px;
     }
 
-    .p-profiles-show .profile-content .c-right .cc-2a,
     .p-profiles-show .profile-content .c-right > .block:last-child {
         margin-left: -20px;
     }
@@ -2595,10 +2593,6 @@
     .p-profiles-show .profile-content .block.achievements,
     .p-profiles-show .profile-content .about.block {
         margin-bottom: 20px;
-    }
-
-    .p-profiles-show .profile-content .c-right .cc-2a {
-        margin-bottom: 20px !important;
     }
 
     .p-pages.p-pages-about .head + .cc-2a > .c-column {
@@ -2684,10 +2678,6 @@
         height: 120px !important;
     }
 
-    .p-profiles-show .profile-content .c-right .cc-2a {
-        height: 155px;
-    }
-
     .p-profiles-show .profile-content .c-right > .block:last-child {
         height: 165px;
     }
@@ -2706,7 +2696,6 @@
         margin-top: -10px;
     }
 
-    .p-profiles-show .profile-content .c-right .cc-2a,
     .p-profiles-show .profile-content .c-right > .block:last-child {
         margin-left: -20px;
     }
@@ -3078,7 +3067,6 @@
     }
 
     .p-profiles .profile-head .c-mobile-actions,
-    .p-profiles-show .profile-content .c-right .cc-2a,
     .p-profiles-show .profile-content .activity,
     .p-profiles-show .profile-content .about.block,
     .p-profiles-show .profile-content .block.achievements,
