@@ -1,0 +1,137 @@
+/* HenEcho Shikimori Theme, HencoDesu, 2020 */
+
+@media screen {
+    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.weak,
+    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.moderate,
+    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement .text.moderate,
+    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement .text.weak {
+        color: var(--green-color);
+    }
+
+    
+    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.high,
+    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.full,
+    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement .text.high,
+    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement .text.full
+    .p-animes-show .c-info-right .watch-online a.kind,
+    .p-mangas-show .c-info-right .watch-online a.kind,
+    .p-ranobe-show .c-info-right .watch-online a.kind {
+        color: var(--main-link-color);
+    }
+
+    
+    .p-profiles .profile-head .c-info .c-additionals div a:hover,
+    .p-animes-show .c-info-right .watch-online a.kind:hover,
+    .p-mangas-show .c-info-right .watch-online a.kind:hover,
+    .p-ranobe-show .c-info-right .watch-online a.kind:hover {
+        color: var(--main-link-hover-color);
+    }
+
+    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a,
+    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement {
+        font-size: 12.5px;
+    }
+
+    .p-profiles .profile-head .c-info .c-additionals b
+    .p-profiles .profile-head .c-info .c-additionals div {
+        font-size: 14px;
+        color: var(--main-text-color);
+    }
+
+    .p-profiles .profile-head .c-info .c-additionals div a {
+        text-shadow: 0 0 0.06em var(--main-text-shadow-color);
+        font-size: 14px;
+        color: var(--main-link-color);
+    }
+
+    
+    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement,
+    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a,
+    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.zero,
+    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement .text.zero,
+    .p-animes-show .c-info-right .watch-online .kind,
+    .p-mangas-show .c-info-right .watch-online .kind,
+    .p-ranobe-show .c-info-right .watch-online .kind {
+        color: var(--sec-text-color);
+    }
+
+    
+    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a:hover,
+    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement:hover {
+        color: var(--orange-hover-color);
+    }
+
+    
+    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility:hover .text {
+        color: var(--orange-hover-color) !important;
+    }
+
+    
+    .p-profiles .profile-head .c-info {
+        padding: 20px;
+        background-color: var(--tile-back-color);
+        border-radius: 3px;
+        border: 1px solid var(--tile-border-color);
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .p-profiles .profile-head .c-info {
+        margin: 20px 10px 0 0;
+        display: inline-block;
+        clear: none;
+        overflow: inherit;
+        float: right;
+        width: calc(61% - 40px);
+        height: 237px;
+        position: relative;
+    }
+
+    .p-profiles .profile-head .c-info .c-additionals {
+        margin-bottom: 0;
+        margin-top: 30px;
+        position: absolute;
+        bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .p-profiles .profile-head .c-info {
+        margin: 20px 10px 0 10px;
+        display: inline-block;
+        clear: none;
+        overflow: inherit;
+        float: left;
+        width: calc((100% - 20px));
+        position: relative;
+    }
+
+    .p-profiles .profile-head .c-info .c-additionals {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .p-profiles .profile-head .c-info {
+        margin-top: 0 !important;
+    }
+
+    .p-profiles .profile-head .c-info {
+        padding-bottom: 0;
+    }
+
+    
+    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a,
+    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement {
+        font-size: 15px;
+    }
+
+    .p-profiles .profile-head .c-info .c-additionals div {
+        font-size: 16px;
+    }
+    
+    .p-profiles .profile-head .c-info .c-additionals b,
+    .p-profiles .profile-head .c-info .c-additionals div a  {
+        font-size: 17px;
+    }
+}

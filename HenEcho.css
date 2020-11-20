@@ -9,8 +9,19 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 
 /*  Импорт блоков HenEcho */
+@import url("https://raw.githubusercontent.com/HencoDesu/HenEcho/Blocks/Blocks/ProfileAvatar.css");
+@import url("https://raw.githubusercontent.com/HencoDesu/HenEcho/Blocks/Blocks/ProfileHeader.css");
+@import url("https://raw.githubusercontent.com/HencoDesu/HenEcho/Blocks/Blocks/ProfileHistory.css");
+@import url("https://raw.githubusercontent.com/HencoDesu/HenEcho/Blocks/Blocks/ProfileInfo.css");
+@import url("https://raw.githubusercontent.com/HencoDesu/HenEcho/Blocks/Blocks/ProfileLifeime.css");
+@import url("https://raw.githubusercontent.com/HencoDesu/HenEcho/Blocks/Blocks/ProfileSocial.css");
+@import url("https://raw.githubusercontent.com/HencoDesu/HenEcho/Blocks/Blocks/ProfileActivity.css");
+@import url("https://raw.githubusercontent.com/HencoDesu/HenEcho/Blocks/Blocks/ProfileAbout.css");
+@import url("https://raw.githubusercontent.com/HencoDesu/HenEcho/Blocks/Blocks/ProfileAchivements.css");
+@import url("https://raw.githubusercontent.com/HencoDesu/HenEcho/Blocks/Blocks/ProfileOther.css");
+
 
 
 /*  Импорт shiki-exo (Legacy для работы еще не перенесенных на HenEcho блоков) */
-@import url("https://raw.githubusercontent.com/HencoDesu/HenEcho/Development/theme-current-version.css");
+@import url("https://raw.githubusercontent.com/HencoDesu/HenEcho/Blocks/theme-current-version.css");
 @import url("https://raw.githubusercontent.com/HencoDesu/HenEcho/Development/ColorSchemes/Dark.css");

@@ -1,0 +1,98 @@
+/* HenEcho Shikimori Theme, HencoDesu, 2020 */
+
+@media screen {
+    .p-profiles .profile-head .c-history .entry .misc {
+        color: var(--sec-text-color) !important;
+    }
+
+    .p-profiles .profile-head .c-history .entry .misc {
+        font-size: 12.4px;
+    }
+
+    .c-history .b-block_list .entry > a .image-name .title {
+        font-size: 14.5px;
+    }
+
+    
+    .p-profiles .profile-head .c-history .entry .misc.date {
+        color: var(--ter-text-color) !important;
+    }
+
+    .p-profiles .profile-head .c-history .entry img {
+        border-radius: 3px;
+        box-shadow: 0 0 4px #0b0b0be0;
+    }
+
+    .p-profiles .profile-head .c-history {
+        padding: 20px;
+        background-color: var(--tile-back-color);
+        border-radius: 3px;
+        border: 1px solid var(--tile-border-color);
+    }
+
+    .p-profiles .profile-head .c-history.x3 {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .p-profiles .profile-head .c-history {
+        margin: 0 10px 0 0;
+        display: inline-block;
+        overflow: inherit;
+        float: right;
+        width: calc(61% - 40px);
+        height: 280px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .p-profiles .profile-head .c-history {
+        margin-top: -10px;
+    }
+    
+    .p-profiles .profile-head .c-history {
+        margin: 5px 10px 0 0;
+        display: inline-block;
+        overflow: inherit;
+        float: right;
+        width: calc((100% - 39px) / 2);
+        height: 55vw;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 481px) {
+    .p-profiles .profile-head .c-history .entry {
+        display: block;
+    }
+
+    .p-profiles .profile-head .c-history {
+        width: 30%;
+        margin-bottom: 0 !important;
+        margin: 130px 0 0 0;
+        display: inline-block;
+        overflow: inherit;
+        float: right;
+        width: calc((100% - 16px) * 0.32);
+        height: 75vw;
+        padding: 20px;
+        background-color: var(--tile-back-color);
+        border-radius: 3px;
+        border: 1px solid var(--tile-border-color);
+    }
+
+    
+    .p-profiles[data-user^="{\"id\":null"] .profile-head .c-history {
+        margin-top: 132px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .p-profiles .profile-head .c-history .entry .misc {
+        font-size: 13px;
+    }
+    
+    .p-profiles .profile-head .c-history .entry .title {
+        font-size: 16px;
+    }
+}

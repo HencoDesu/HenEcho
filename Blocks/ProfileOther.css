@@ -1,0 +1,22 @@
+/* HenEcho Shikimori Theme, HencoDesu, 2020 */
+
+@media screen {
+    .p-profiles-show .profile-content .block:last-child:not(:first-child) {
+        padding: 20px;
+        background-color: var(--tile-back-color);
+        border-radius: 3px;
+        border: 1px solid var(--tile-border-color);
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .p-profiles-show .profile-content .block:last-child:not(:first-child) {
+        margin-top: -10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .p-profiles-show .profile-content .block:last-child:not(:first-child) {
+        margin-top: -15px;
+    } 
+}
