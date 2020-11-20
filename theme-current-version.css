@@ -1389,8 +1389,7 @@
     .b-feedback-inner .about,
     .tooltip-details .b-nothing_here.centered,
     .p-studios .block > .studio .animes .num,
-    .p-studios .block > .studio .years .num,
-    .p-profiles-show .profile-content .activity .title {
+    .p-studios .block > .studio .years .num {
         color: var(--main-text-color);
     }
 
@@ -2353,7 +2352,6 @@
     }
 
     
-    .p-profiles-show .profile-content .activity,
     .p-profiles-show .profile-content .about.block,
     .p-profiles-show .profile-content .block.achievements,
     .p-profiles-show .profile-content .block:last-child:not(:first-child) {
@@ -2670,10 +2668,6 @@
         --padding-width: 20px;
     }
 
-    .p-profiles-show .profile-content .activity {
-        height: 210px;
-    }
-
     .p-profiles-show .profile-content .graph {
         height: 120px !important;
     }
@@ -2689,7 +2683,6 @@
 
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
-    .p-profiles-show .profile-content .activity,
     .p-profiles-show .profile-content .about.block,
     .p-profiles-show .profile-content .block.achievements,
     .p-profiles-show .profile-content .block:last-child:not(:first-child) {
@@ -3067,7 +3060,6 @@
     }
 
     .p-profiles .profile-head .c-mobile-actions,
-    .p-profiles-show .profile-content .activity,
     .p-profiles-show .profile-content .about.block,
     .p-profiles-show .profile-content .block.achievements,
     .p-profiles-show .profile-content .block:last-child:not(:first-child) {
@@ -3077,14 +3069,6 @@
     .p-profiles-show .profile-content {
         margin-top: 15px;
     }
-
-        .p-profiles-show .profile-content .activity {
-            padding-bottom: 40px !important;
-        }
-
-            .p-profiles-show .profile-content .activity:last-child {
-                margin-bottom: 0 !important;
-            }
 
     .p-profiles .profile-head .c-mobile-actions {
         margin-bottom: 15px;
@@ -3250,7 +3234,6 @@
         body[data-locale="en"] .b-feedback > .marker-positioner > .marker-text, body .b-feedback > .marker-positioner > .marker-text,
     .b-stats_bar .stat_names .stat_name a,
     .b-stats_bar .stat_names .stat_name,
-    .p-profiles-show .profile-content .activity .title,
     .b-comment > .inner header .name-date a.name,
     .p-achievements-global table.statistics tr th,
     .p-user_rates-index .stat-categories .t2,
