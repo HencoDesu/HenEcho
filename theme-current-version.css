@@ -1985,7 +1985,7 @@
     }
 
     .l-footer .copyright::before {
-        content: 'shiki-exo 2.4.0';
+        content: 'HenEcho (fork of shiki-exo 2.4.0)';
         text-align: right;
         display: block;
         position: relative;
@@ -2467,7 +2467,7 @@
 
 @media screen and (min-width: 1200px) {
     .p-profiles-show.x1200 .profile-content .c-right {
-        margin-left: 20px !important;
+        margin-left: 20px;
         width: calc(45% - 40px) !important;
     }
 }
@@ -2524,14 +2524,6 @@
         height: 366px;
     }
 
-    .p-profiles .profile-head {
-        margin-top: 117px;
-    }
-
-    .p-profiles-show .profile-content .c-right > .block:last-child {
-        margin-left: -20px;
-    }
-
     .b-user.detailed,
     .b-user.moderation {
         height: 126px;
@@ -2571,7 +2563,7 @@
 
     .p-profiles-show .profile-content .block:first-child,
     .p-achievements-group .cc-2 > .c-column {
-        margin-bottom: 0;
+        margin-bottom: -17px;
     }
 
     .p-dashboards-show .b-hot_topics-v2 + * > .block2,
@@ -2591,7 +2583,19 @@
     }
 
     .p-profiles-show .profile-content {
-        margin: 20px 10px 0 10px;
+        margin: 5px 10px 0 10px;
+    }
+    
+    .profile-content > .cc-2.block > .c-column.c-left {
+        width: 60%;
+        float: left;
+        margin-right: 0;
+    }
+
+    .profile-content > .cc-2.block > .c-column.c-right {
+        width: calc(40% - 3px);
+        float: right;
+        margin-left: 3px;
     }
 
     .p-dashboards-show .cc-second .cc-inner .c-content {

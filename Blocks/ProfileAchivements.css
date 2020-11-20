@@ -6,6 +6,7 @@
         background-color: var(--tile-back-color);
         border-radius: 3px;
         border: 1px solid var(--tile-border-color);
+        margin-bottom: 3px;
     }
 }
 

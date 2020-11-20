@@ -73,6 +73,10 @@
         border-radius: 3px;
         border: 1px solid var(--tile-border-color);
     }
+
+    .p-profiles .profile-head .c-info .c-additionals {
+        margin-bottom: 0;
+    }
 }
 
 @media screen and (max-width: 1025px) {

@@ -81,6 +81,9 @@
         border: 1px solid var(--tile-border-color);
     }
 
+    .p-profiles .profile-head .c-history {
+        margin-top: 100px;
+    }
     
     .p-profiles[data-user^="{\"id\":null"] .profile-head .c-history {
         margin-top: 132px;
