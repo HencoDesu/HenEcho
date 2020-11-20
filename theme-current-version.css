@@ -625,10 +625,6 @@
     .profile-actions .ignore-remove,
     .b-user_rate_log .action.create,
     .b-review_votes .user-vote .voted-for,
-    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.weak,
-    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.moderate,
-    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement .text.moderate,
-    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement .text.weak,
     .b-add_to_list.completed .edit,
     .b-add_to_list.completed .trigger-arrow:hover,
     .b-log_entry .state.accepted,
@@ -1038,10 +1034,6 @@
     .b-user16,
     .b-mention s,
     .p-studios .block > .studio .name,
-    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.high,
-    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.full,
-    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement .text.high,
-    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement .text.full,
     .b-log_entry .spoiler.collapse span,
     .p-translations .animes a,
     .b-log_entry .spoiler.collapse.triggered span,
@@ -1049,10 +1041,7 @@
     .b-js-action,
     .b-cosplay_gallery h3 a,
     .b-bb_codes-examples .example a,
-    .b-bb_codes-examples .result a,
-    .p-animes-show .c-info-right .watch-online a.kind,
-    .p-mangas-show .c-info-right .watch-online a.kind,
-    .p-ranobe-show .c-info-right .watch-online a.kind {
+    .b-bb_codes-examples .result a {
         color: var(--main-link-color);
     }
 
@@ -1063,7 +1052,6 @@
     .b-catalog_entry .cover:hover .title,
     .p-dashboards .user_list .list-change:hover,
     .b-topic > .inner header .name-date a.name:hover,
-    .p-profiles .profile-head .c-info .c-additionals div a:hover,
     .b-forums .forum .link-with-input .link:hover,
     .b-user.named_avatar .name:hover,
     .b-shiki_editor footer .about-bb_codes:hover,
@@ -1150,10 +1138,7 @@
     .b-js-action:hover,
     .b-cosplay_gallery h3 a:hover,
     .b-bb_codes-examples .example a,
-    .b-bb_codes-examples .result a:hover,
-    .p-animes-show .c-info-right .watch-online a.kind:hover,
-    .p-mangas-show .c-info-right .watch-online a.kind:hover,
-    .p-ranobe-show .c-info-right .watch-online a.kind:hover {
+    .b-bb_codes-examples .result a:hover {
             color: var(--main-link-hover-color);
         }
 
@@ -1381,11 +1366,6 @@
         color: var(--sec-link-color);
     }
 
-    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a,
-    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement {
-        font-size: 12.5px;
-    }
-
     input, optgroup, select, textarea {
         color: black;
         background-color: white;
@@ -1424,19 +1404,11 @@
         border-radius: 3px;
     }
 
-    .p-profiles .profile-head .c-info .c-additionals b,
     .p-user_rates-index .list-lines tr td .rate-text,
-    .p-profiles .profile-head .c-info .c-additionals div,
     .p-profiles-show .lifetime .title .value {
         font-size: 14px;
         color: var(--main-text-color);
     }
-
-        .p-profiles .profile-head .c-info .c-additionals div a {
-            text-shadow: 0 0 0.06em var(--main-text-shadow-color);
-            font-size: 14px;
-            color: var(--main-link-color);
-        }
 
     .bar.horizontal .line .x_label, header.head h1 a.back::before, header.head h2 a.back::before,
     .b-comment > .inner header .name-date .time,
@@ -1449,7 +1421,6 @@
     .b-forums .forum .topics,
     .p-dashboards .user_list .list-change .note,
     .b-topic > .inner header .name-date .time,
-    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement,
     .p-user_rates-index .l-content .order-control,
     .p-user_rates-index .list-lines tr td .episodes_total,
     .b-user.detailed .history .line .date,
@@ -1513,7 +1484,6 @@
     .club-actions .upload,
     .club-actions .leave,
     .buttons a,
-    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a,
     .c-actions .new_review::after,
     .c-actions .new_comment::after,
     .c-actions .fav-add::after,
@@ -1532,8 +1502,6 @@
     .c-actions .new_review,
     .c-actions .edit,
     .p-profiles header.head .misc,
-    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.zero,
-    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement .text.zero,
     .buttons .main-controls a,
     .b-subposter-action::after,
     .p-studios .block > .studio .animes,
@@ -1548,9 +1516,6 @@
     .b-log_entry .change-details .reason span,
     .b-poll .poll-variants .poll-variant.result .votes-percent,
     .b-poll .poll-variants .poll-variant.result .votes-total,
-    .p-animes-show .c-info-right .watch-online .kind,
-    .p-mangas-show .c-info-right .watch-online .kind,
-    .p-ranobe-show .c-info-right .watch-online .kind,
     .b-bb_codes-examples .example .title,
     .b-bb_codes-examples .result .title,
     .b-achievements_notifier .achievement .content .name .level,
@@ -1580,8 +1545,6 @@
     .c-actions .new_comment:hover,
     .c-actions .new_review:hover,
     .c-actions .edit:hover,
-    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a:hover,
-    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement:hover,
     .p-user_rates-index .l-content .order-control:hover,
     .c-actions .new_review:hover::after,
     .c-actions .new_comment:hover::after,
@@ -1636,7 +1599,6 @@
     .buttons span:hover,
     .buttons label:hover,
     .p-user_rates-index .stat-categories .category.active,
-    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility:hover .text,
     .b-add_to_list .expanded-options .remove-trigger .text,
     .b-add_to_list .expanded-options .remove-trigger .text:hover,
     .b-topic.aside-expanded > .inner aside.buttons .main-controls .item-edit:hover {
@@ -2396,7 +2358,6 @@
         border: 1px solid var(--tile-border-color);
     }
 
-    .p-profiles .profile-head .c-info,
     .p-profiles-show .lifetime,
     .p-profiles-show .profile-content .c-right .cc-2a,
     .p-profiles-show .profile-content .activity,
@@ -2629,24 +2590,6 @@
         margin-top: 0;
     }
 
-    .p-profiles .profile-head .c-info {
-        margin: 20px 10px 0 0;
-        display: inline-block;
-        clear: none;
-        overflow: inherit;
-        float: right;
-        width: calc(61% - 40px);
-        height: 237px;
-        position: relative;
-    }
-
-        .p-profiles .profile-head .c-info .c-additionals {
-            margin-bottom: 0;
-            margin-top: 30px;
-            position: absolute;
-            bottom: 20px;
-        }
-
     .p-profiles-show .profile-content .block:first-child,
     .p-achievements-group .cc-2 > .c-column {
         margin-bottom: 0;
@@ -2784,20 +2727,6 @@
     .p-profiles-show.x1200 .profile-content .c-right > .subcontent:last-child {
         margin-bottom: 30px;
     }
-
-    .p-profiles .profile-head .c-info {
-        margin: 20px 10px 0 10px;
-        display: inline-block;
-        clear: none;
-        overflow: inherit;
-        float: left;
-        width: calc((100% - 20px));
-        position: relative;
-    }
-
-        .p-profiles .profile-head .c-info .c-additionals {
-            margin-bottom: 0;
-        }
 
     .p-profiles-show .profile-content .block:first-child {
         margin-bottom: 0;
@@ -3175,8 +3104,7 @@
         margin-top: -15px;
     }
 
-    .p-profiles-show .lifetime,
-    .p-profiles .profile-head .c-info {
+    .p-profiles-show .lifetime {
         margin-top: 0 !important;
     }
 
@@ -3194,10 +3122,6 @@
 
     .p-profiles .profile-head .c-mobile-actions {
         margin-bottom: 15px;
-    }
-
-    .p-profiles .profile-head .c-info {
-        padding-bottom: 0;
     }
 
     .b-quote {
@@ -3241,8 +3165,6 @@
     .l-top_menu-v2 .submenu > a,
     .b-main_search ul.popup li,
     .b-main_search .input input,
-    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a,
-    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement,
     .b-db_entry-note .name-container .note .relation,
     .b-db_entry-note .name-container .note .additional,
     .p-animes-show .cc-related-authors > .c-column,
@@ -3358,15 +3280,13 @@
     .p-dashboards .user_list .history > .title .switch,
     .b-catalog_entry-tooltip .inner .text,
     .b-catalog_entry-tooltip .inner .additional-images .link .title,
-    .p-contests .results .cc-result .c-rounds .label,
-    .p-profiles .profile-head .c-info .c-additionals div {
+    .p-contests .results .cc-result .c-rounds .label {
         font-size: 16px;
     }
 
         body[data-locale="en"] .b-feedback > .marker-positioner > .marker-text, body .b-feedback > .marker-positioner > .marker-text,
     .b-stats_bar .stat_names .stat_name a,
     .b-stats_bar .stat_names .stat_name,
-    .p-profiles .profile-head .c-info .c-additionals b,
     .p-profiles-show .lifetime .title,
     .p-profiles-show .profile-content .activity .title,
     .b-comment > .inner header .name-date a.name,
@@ -3374,8 +3294,7 @@
     .p-user_rates-index .stat-categories .t2,
     .b-topic > .inner > header .name-date a,
     .b-topic > .inner > header .about a,
-    .p-dashboards .user_list .list-stat .value,
-    .p-profiles .profile-head .c-info .c-additionals div a {
+    .p-dashboards .user_list .list-stat .value {
             font-size: 17px;
         }
 
