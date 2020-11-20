@@ -2351,7 +2351,6 @@
         border: 1px solid var(--tile-border-color);
     }
 
-    .p-profiles-show .profile-content .block.achievements,
     .p-profiles-show .profile-content .block:last-child:not(:first-child) {
         padding: 20px;
         background-color: var(--tile-back-color);
@@ -2680,7 +2679,6 @@
 
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
-    .p-profiles-show .profile-content .block.achievements,
     .p-profiles-show .profile-content .block:last-child:not(:first-child) {
         margin-top: -10px;
     }
@@ -3056,7 +3054,6 @@
     }
 
     .p-profiles .profile-head .c-mobile-actions,
-    .p-profiles-show .profile-content .block.achievements,
     .p-profiles-show .profile-content .block:last-child:not(:first-child) {
         margin-top: -15px;
     }    
